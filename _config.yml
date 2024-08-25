@@ -33,6 +33,7 @@ github_username:  jekyll
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
 

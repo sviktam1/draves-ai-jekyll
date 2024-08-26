@@ -4,4 +4,5 @@
 
 layout: home
 ---
-Main content begins here?
+
+Main content begins here.

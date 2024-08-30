@@ -28,6 +28,22 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scott_draves
 github_username:  scottdraves
 
+
+author:
+  name: "Scott Draves"
+  avatar: "/assets/img/face.jpg"
+  bio: "AI Artist & Engineering Leader"
+  
+
+collections:
+  features:
+    order:
+      pioneering.md
+      research.md
+      academic.md
+      innovative.md
+      interview.md
+
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"

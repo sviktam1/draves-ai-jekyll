@@ -1,0 +1,23 @@
+Scott Draves:
+    name: "Scott Draves"
+    avatar: /assets/img/face.jpg
+    bio: "AI Artist & Engineering Leader"
+    links:
+      - label: "Facebook"
+        icon: "fab fa-fw fa-facebook"
+        url: "https://www.facebook.com/groups/electricshe3p/"
+      - label: "Twitter"
+        icon: "fab fa-fw fa-twitter-square"
+        url: "https://twitter.com/scott_draves?lang=en"
+      - label: "Instagram"
+        icon: "fab fa-fw fa-instagram"
+        url: "https://www.instagram.com/scott.draves/"
+      - label: "YouTube"
+        icon: "fab fa-fw fa-youtube"
+        url: "https://www.youtube.com/@ScottDraves"
+      - label: "LinkedIn"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/scottdraves"
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/scottdraves"

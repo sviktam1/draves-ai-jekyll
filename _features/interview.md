@@ -1,0 +1,5 @@
+---
+title: Interviews & Recognition
+image_path: /assets/img/social-media.webp
+---
+Scott’s contributions to the art and technology communities and his pivotal role in shaping the future of AI-driven creativity can be found in publications like [Arthur I Miller’s “Colliding Worlds”](https://scottdraves.com/images/colliding-worlds-draves-profile.pdf) , [The Creators Project](http://thecreatorsproject.vice.com/blog/do-cyborgs-dream-of-electric-sheep), [Triangulation Blog](http://thecreatorsproject.vice.com/blog/do-cyborgs-dream-of-electric-sheep), and [Art in Odd Places](http://www.artinoddplaces.org/scott-draves-try-2/). [Wikipedia](https://en.wikipedia.org/wiki/Scott_Draves) further underscores his recognition in these fields and his dedication to developing collective intelligence for computers and humans.

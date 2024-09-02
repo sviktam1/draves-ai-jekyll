@@ -27,7 +27,7 @@ gallery4:
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
 ---
 
-<div class="feature__wrapper custom-features custom-features-first">
+<div class="feature__wrapper custom-features custom-features-first" data-aos="fade-up">
   {% for feature in site.features limit:2 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
@@ -45,9 +45,9 @@ gallery4:
   {% endfor %}
 </div>
 
-<div class="figure-row figure-row-two">
+<div class="figure-row figure-row-two" data-aos="fade-up" data-aos-delay="100">
   {% for item in page.gallery1 %}
-    <figure class="image-hover-effect">
+    <figure class="image-hover-effect" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
       <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
         <img src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         <figcaption>
@@ -62,7 +62,7 @@ gallery4:
 {% include testimonials.html %}
 
 
-<div class="feature__wrapper custom-features">
+<div class="feature__wrapper custom-features" data-aos="fade-up" data-aos-delay="200">
    {% for feature in site.features offset:2 limit:3 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
@@ -81,10 +81,12 @@ gallery4:
 </div>
 
 
-<div class="testimonials-gallery-row">
-  <div class="gallery-column">
-    {% include figure popup=true image_path="/assets/img/IMG_8395-1024x640.jpeg" alt="Dreams in High Fidelity II at Lexus Hybrid Art – MOSCOW 2010" caption="Dreams in High Fidelity II at Lexus Hybrid Art – MOSCOW 2010" %}
+<div class="testimonials-gallery-row" data-aos="fade-up" data-aos-delay="300">
+  {% for item in page.gallery2 limit:1 %}
+      <div class="gallery-column">
+      {% include figure popup=true image_path=item.image_path alt=item.excerpt caption=item.excerpt %}
   </div>
+  {% endfor %}
   <div class="testimonials-column">
     {% for testimonial in site.data.testimonials offset:2 limit:2 %}
       <blockquote class="testimonial">
@@ -98,9 +100,9 @@ gallery4:
 
 
 
-<div class="figure-row">
+<div class="figure-row" data-aos="fade-up" data-aos-delay="400">
   {% for item in page.gallery3 %}
-    <figure class="image-hover-effect">
+    <figure class="image-hover-effect" data-aos="flip-left" data-aos-delay="{{ forloop.index | times: 100 }}">
       <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
         <img src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         <figcaption>
@@ -111,7 +113,7 @@ gallery4:
   {% endfor %}
 </div>
 
-<div class="figure-row-horizontal">
+<div class="figure-row-horizontal" data-aos="fade-up" data-aos-delay="500">
   {% for item in page.gallery4 limit:1 %}
     <figure>
       <div class="horizontal-image-container">

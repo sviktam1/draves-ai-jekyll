@@ -1,19 +1,8 @@
-<section class="testimonials">
-    <div class="container">
-        <div class="testimonial-row">
-        {% for testimonial in site.data.testimonials limit:2 %}
-            <div class="testimonial-item">
-                <blockquote>
-                    <p>"{{ testimonial.quote }}"</p>
-                    <footer>
-                        <cite>— {{ testimonial.author }}</cite>
-                        {% if testimonial.position %}
-                            <span class="position">{{ testimonial.position }}</span>
-                        {% endif %}
-                    </footer>
-                </blockquote>
-            </div>
-        {% endfor %}
-        </div>
-    </div>
-</section>
+<div class="testimonials-wrapper" data-aos="fade-up">
+    {% for testimonial in site.data.testimonials limit:2 %}
+        <blockquote class="testimonial" data-aos="fade-right" data-aos-delay="{{ forloop.index | times: 100 }}">
+            <p>{{ testimonial.quote }}</p>
+            <cite>{{ testimonial.author }}</cite>
+        </blockquote>
+    {% endfor %}
+</div>

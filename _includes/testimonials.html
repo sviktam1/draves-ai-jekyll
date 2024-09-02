@@ -1,17 +1,17 @@
 <section class="testimonials">
     <div class="container">
-        <div class="testimonial-grid">
-        {% for testimonial in site.data.testimonials %}
+        <div class="testimonial-row">
+        {% for testimonial in site.data.testimonials limit:2 %}
             <div class="testimonial-item">
-            <blockquote>
-                <p>"{{ testimonial.quote }}"</p>
-                <footer>
-                <cite>— {{ testimonial.author }}</cite>
-                {% if testimonial.position %}
-                    <span class="position">{{ testimonial.position }}</span>
-                {% endif %}
-                </footer>
-            </blockquote>
+                <blockquote>
+                    <p>"{{ testimonial.quote }}"</p>
+                    <footer>
+                        <cite>— {{ testimonial.author }}</cite>
+                        {% if testimonial.position %}
+                            <span class="position">{{ testimonial.position }}</span>
+                        {% endif %}
+                    </footer>
+                </blockquote>
             </div>
         {% endfor %}
         </div>

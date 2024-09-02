@@ -10,16 +10,24 @@ search: false
 
 
 .custom-features {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 0 10px; // Add some padding on the sides
+}
+
+.custom-features-first {
+  justify-content: center;
 }
 
 .custom-feature {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 15px;
-  margin: 10px;
+  margin: 0 auto; // Center the feature within its grid cell
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 
@@ -68,22 +76,19 @@ search: false
   // figure.third img {
   //   max-width: calc(33.3333% - 0.5em);
   // }
-  .figure-row {
+  .figure-row,
+  .figure-row-two,
+  .testimonials-gallery-row {
+    margin-top: 2em;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 2em;
   }
   
   .image-hover-effect {
     position: relative;
-    flex: 1 1 calc(33.333% - 20px); // Adjust the percentage if you want more or fewer images per row
-    margin: 0 10px 20px;
-    min-width: 250px;
-    max-width: calc(33.333% - 20px); // Ensure images don't grow too large
     overflow: hidden;
-    aspect-ratio: 16 / 10; // Changed from 16 / 9 to make images slightly taller
-    height: 300px;// Set a fixed aspect ratio for all images
     
     a {
       display: block;
@@ -112,7 +117,7 @@ search: false
       transition: all 0.3s ease;
       
       p {
-        color: #59d4cc;
+        color: white;
         text-align: center;
         padding: 1em;
         transform: translateY(20px);
@@ -138,9 +143,190 @@ search: false
   // Add a new class for the two-image row
 .figure-row-two {
   .image-hover-effect {
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-    height: 400px; 
+    flex: 1 1 100%;
+    max-width: 100%;
+    height: 300px; 
+  }
+}
+
+.testimonials-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.testimonial {
+  flex: 1;
+  margin: 0 0 20px;
+  padding: 20px;
+  border-left: 5px solid #00adb5;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+  
+  // Adjust this value as needed
+  &:hover {
+    border-color: #59d4cc;
+    cursor: pointer;
+  }
+
+}
+
+.testimonials-gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.gallery-column,
+.testimonials-column {
+  flex: 1 1 100%;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+
+.testimonials-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-item {
+  flex: 0 0 48%; /* Adjust as needed, leaving some gap between items */
+  /* Add other styling as needed */
+  blockquote {
+    border-left: 5px solid #00adb5;
+    &:hover {
+      border-color: #59d4cc;
+      cursor: pointer;
+    }
+  }
+}
+.figure-row-horizontal {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.horizontal-image-container {
+  width: 100%;
+  height: 200px; // Adjust this value to control how much of the image is shown
+  overflow: hidden;
+  position: relative;
+}
+
+.horizontal-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width: 48em) {
+  .custom-features {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .custom-features-first {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .custom-feature {
+    width: calc(50% - 20px); // Adjust for the gap
+  }
+
+  .image-hover-effect {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+
+  .figure-row-two .image-hover-effect {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    height: 300px;
+  }
+
+  .gallery-column {
+    flex: 1 1 60%;
+    padding-right: 20px;
+  }
+
+  .testimonials-column {
+    flex: 1 1 40%;
+  }
+
+  .testimonial {
+    flex: 1;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .horizontal-image-container {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .custom-features {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .custom-features-first {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    max-width: 800px;
+  }
+
+  .custom-feature {
+    width: 100%;
+    max-width: none;
+  }
+
+  .image-hover-effect {
+    flex: 1 1 calc(25% - 15px);
+    max-width: calc(25% - 15px);
+  }
+
+  .figure-row-two .image-hover-effect {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    height: 400px;
+  }
+
+  .gallery-column {
+    padding-right: 40px;
+  }
+
+  .horizontal-image-container {
+    height: 300px;
+  }
+}
+
+// Remove hover effects from other images
+.gallery-column img,
+.horizontal-image-container img,
+.custom-feature img {
+  transition: none;
+  
+  &:hover {
+    filter: none;
   }
 }
 

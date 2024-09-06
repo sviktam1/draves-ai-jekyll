@@ -49,16 +49,21 @@ gallery4:
   {% endfor %}
 </div>
 
-<div class="figure-row figure-row-two" data-aos="fade-up" data-aos-delay="100">
+<div class="figure-row figure-row-two d-flex" data-aos="fade-up" data-aos-delay="100">
   {% for item in page.gallery1 %}
-    <figure class="image-hover-effect" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
-      <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
-        <img src="{{ item.image_path }}" alt="{{ item.excerpt }}">
-        <figcaption>
-          <p>{{ item.excerpt }}</p>
-        </figcaption>
-      </a>
-    </figure>
+    <div style="max-width: 450px">
+      <figure class="" style="max-width: 100%; height: 320px" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
+        <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
+          <img style="width: 100%; height: 350px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
+          <!-- <figcaption>
+            <p>{{ item.excerpt }}</p>
+          </figcaption> -->
+        </a>
+      </figure>
+      <figcaption style="width: fit-content;">
+        <p style="width: fit-content;">{{ item.excerpt }}</p>
+      </figcaption>
+    </div>
   {% endfor %}
 </div>
 
@@ -104,16 +109,21 @@ gallery4:
 
 
 
-<div class="figure-row" data-aos="fade-up" data-aos-delay="400">
+<div class="figure-row d-flex" data-aos="fade-up" data-aos-delay="400">
   {% for item in page.gallery3 %}
-    <figure class="image-hover-effect" data-aos="flip-left" data-aos-delay="{{ forloop.index | times: 100 }}">
-      <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
-        <img src="{{ item.image_path }}" alt="{{ item.excerpt }}">
-        <figcaption>
-          <p>{{ item.excerpt }}</p>
-        </figcaption>
-      </a>
-    </figure>
+    <div style="max-width: 215px">
+      <figure class="" style="max-width: 100%; height: 170px" data-aos="flip-left" data-aos-delay="{{ forloop.index | times: 100 }}">
+        <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
+          <img style="height: 200px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
+          <!-- <figcaption>
+            <p>{{ item.excerpt }}</p>
+          </figcaption> -->
+        </a>
+      </figure>
+      <figcaption style="width: fit-content;">
+        <p style="width: fit-content;">{{ item.excerpt }}</p>
+      </figcaption>
+    </div>
   {% endfor %}
 </div>
 

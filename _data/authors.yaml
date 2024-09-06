@@ -1,6 +1,6 @@
 Scott Draves:
     name: "Scott Draves"
-    avatar: /assets/img/face.jpg
+    # avatar: /assets/img/face.jpg
     bio: "AI Artist & Engineering Leader"
     links:
       - label: "Facebook"

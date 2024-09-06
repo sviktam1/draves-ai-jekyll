@@ -8,6 +8,31 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+body, p, .label, figcaption, .social-icons a, .page__footer-copyright {
+  font-family: "Lato", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: "Comfortaa", sans-serif !important;
+}
+
+.feature__item.custom-feature, .testimonial {
+  cursor: default !important;
+}
+
+.author__avatar-img {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  width: 100%;
+  max-width: 6rem;
+}
+
+@media (min-width: 576px) { 
+  .author__avatar-img {
+    max-width: 12rem;
+  }
+}
 
 .custom-features {
   display: grid;

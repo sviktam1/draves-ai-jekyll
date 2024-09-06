@@ -27,6 +27,10 @@ gallery4:
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
 ---
 
+<div> 
+  <img class="author__avatar-img" src="/assets/img/face.jpg" alt="Author">
+</div>
+
 <div class="feature__wrapper custom-features custom-features-first" data-aos="fade-up">
   {% for feature in site.features limit:2 %}
     <div class="feature__item custom-feature">

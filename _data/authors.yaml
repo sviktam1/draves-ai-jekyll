@@ -21,3 +21,6 @@ Scott Draves:
       - label: "GitHub"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/scottdraves"
+      - label: "Threads"
+        icon: "fab fa-fw fa-threads"
+        url: "https://www.threads.net/@scott__draves"

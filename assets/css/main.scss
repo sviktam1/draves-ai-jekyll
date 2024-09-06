@@ -30,11 +30,41 @@ h1, h2, h3, h4, h5, h6, .site-title {
   right: 1rem;
   width: 100%;
   max-width: 6rem;
+  border: 1px solid white;
 }
 
 @media (min-width: 576px) { 
   .author__avatar-img {
     max-width: 12rem;
+    top: 7.7rem;
+  }
+
+  .site-title {
+    font-size: 34px;
+  
+    .site-subtitle {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 768px) { 
+  .author__avatar-img {
+    top: 11rem;
+  }
+
+  .site-title {
+    font-size: 44px;
+  
+    .site-subtitle {
+      font-size: 26px;
+    }
+  }
+}
+
+@media (min-width: 1200px) { 
+  .author__avatar-img {
+    top: 8rem;
   }
 }
 
@@ -60,12 +90,18 @@ h1, h2, h3, h4, h5, h6, .site-title {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 
+  a {
+    color: rgb(105, 187, 255);
+  }
+
   a:hover {
-    color: #59d4cc;
+    // color: #59d4cc;
+    color: rgb(105, 187, 255);
   }
 
   &:hover {
-    border-color: #59d4cc; // Light salad green
+    // border-color: #59d4cc; // Light salad green
+    border-color: rgb(105, 187, 255);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 }
@@ -74,13 +110,15 @@ h1, h2, h3, h4, h5, h6, .site-title {
 }
   
   .archive__item-icon {
-    width: 24px !important;
-    height: 24px !important;
+    // width: 24px !important;
+    // height: 24px !important;
+    
     margin-bottom: 10px;
   
     img {
-      width: 100%;
-      height: 100%;
+      // width: 100%;
+      // height: 100%;
+      height: 27px;
       object-fit: cover;
     }
   }
@@ -189,7 +227,9 @@ h1, h2, h3, h4, h5, h6, .site-title {
   flex: 1;
   margin: 0 0 20px;
   padding: 20px;
-  border-left: 5px solid #00adb5;
+  // border-left: 5px solid #00adb5;
+  // #69bbff
+  border-left: 5px solid rgb(105, 187, 255);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
@@ -200,7 +240,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
   
   // Adjust this value as needed
   &:hover {
-    border-color: #59d4cc;
+    // border-color: #59d4cc;
     cursor: pointer;
   }
 
@@ -234,9 +274,10 @@ h1, h2, h3, h4, h5, h6, .site-title {
   flex: 0 0 48%; /* Adjust as needed, leaving some gap between items */
   /* Add other styling as needed */
   blockquote {
-    border-left: 5px solid #00adb5;
+    // border-left: 5px solid #00adb5;
+    border-left: 5px solid rgb(105, 187, 255);
     &:hover {
-      border-color: #59d4cc;
+      // border-color: #59d4cc;
       cursor: pointer;
     }
   }

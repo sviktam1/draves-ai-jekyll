@@ -36,6 +36,7 @@ gallery4:
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">
+          <!-- <i class="fa-solid fa-bullhorn"></i> -->
           <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
         </div>
         <div class="archive__item-body">

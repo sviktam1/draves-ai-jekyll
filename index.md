@@ -23,7 +23,7 @@ gallery3:
   - excerpt: Skrillex, Grimes, Diplo, Pretty lights with Electric Sheep, summer tour 2012
     image_path: /assets/img/skrillex-electric-sheep-train-grimes.png
 gallery4:
-  - excerpt: Lexus Hybrid Art, Moscow 2010
+  - excerpt: Opening night of Lexus Hybrid Art, Moscow 2010
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
 ---
 
@@ -36,7 +36,6 @@ gallery4:
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">
-          <!-- <i class="fa-solid fa-bullhorn"></i> -->
           <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
         </div>
         <div class="archive__item-body">
@@ -56,9 +55,6 @@ gallery4:
       <figure class="" style="max-width: 100%; height: 320px" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
         <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
           <img style="width: 100%; height: 350px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
-          <!-- <figcaption>
-            <p>{{ item.excerpt }}</p>
-          </figcaption> -->
         </a>
       </figure>
       <figcaption style="width: fit-content;">
@@ -116,9 +112,6 @@ gallery4:
       <figure class="" style="max-width: 100%; height: 170px" data-aos="flip-left" data-aos-delay="{{ forloop.index | times: 100 }}">
         <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
           <img style="height: 200px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
-          <!-- <figcaption>
-            <p>{{ item.excerpt }}</p>
-          </figcaption> -->
         </a>
       </figure>
       <figcaption style="width: fit-content;">

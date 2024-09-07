@@ -19,21 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Scott Draves
-subtitle: Pioneering Generative Artist and Engineering Leader
+subtitle: Pioneering AI Artist & Engineering Leader
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Scott Draves: Pioneering AI Artist and Engineering Leader
+  Scott Draves: Pioneering AI Artist & Engineering Leader
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scott_draves
 github_username:  scottdraves
-
-
-author:
-  name: "Scott Draves"
-  avatar: "/assets/img/face.jpg"
-  bio: "AI Artist & Engineering Leader"
-  
 
 collections:
   features:

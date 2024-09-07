@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 author: Scott Draves
-subtitle: Pioneering AI Artist and Engineering Leader
+subtitle: Pioneering AI Artist & Engineering Leader
 header:
   image: /assets/img/IMG_8396.jpg
 gallery1:

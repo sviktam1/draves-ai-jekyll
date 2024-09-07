@@ -20,17 +20,13 @@ h1, h2, h3, h4, h5, h6, .site-title {
   font-family: "Comfortaa", sans-serif !important;
 }
 
-.feature__item.custom-feature, .testimonial {
-  cursor: default !important;
-}
-
 .author__avatar-img {
   position: absolute;
   top: 5rem;
   right: 1rem;
   width: 100%;
   max-width: 6rem;
-  border: 1px solid white;
+  border: 1px solid gray;
 }
 
 @media (min-width: 576px) { 

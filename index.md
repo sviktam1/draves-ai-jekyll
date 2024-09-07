@@ -6,24 +6,24 @@ subtitle: Pioneering AI Artist & Engineering Leader
 header:
   image: /assets/img/IMG_8396.jpg
 gallery1:
-  - excerpt: Immersive grand opening at 21c Museum Hotel
+  - excerpt: Immersive grand opening at 21c Museum Hotel, Bentonville 2013
     image_path: /assets/img/IMG_4507-1024x543.jpg
-  - excerpt: Vida retrospective at Espacio Fundación Telefónica, Madrid
+  - excerpt: Vida retrospective at Espacio Fundación Telefónica, Madrid 2012
     image_path: /assets/img/madrid-vida-retrospective.JPG
 gallery2:
-  - excerpt: Electric Sheep designed by AI and collective intelligence.
+  - excerpt: Electric Sheep designed by collective intelligence of AI and human artists
     image_path: /assets/img/IMG_8395-1024x640.jpeg 
 gallery3:
-  - excerpt: Paul Simon album cover made with Draves' code. 2011.
+  - excerpt: Paul Simon album cover made with Draves' code, 2011
     image_path: /assets/img/IMG_8310.jpeg
-  - excerpt: Stephen Hawking book cover made with Draves' code. 2010.
+  - excerpt: Stephen Hawking book cover made with Draves' code, 2010
     image_path: /assets/img/hawking flame.jpg
-  - excerpt: At Webster Hall on 50 flat screens. NEW YORK 2009
+  - excerpt: At Webster Hall on 50 flat screens, New York 2009
     image_path: /assets/img/IMG_8308.jpeg
-  - excerpt: Skrillex, Grimes, Diplo, Pretty lights with Electric Sheep, summer tour 2012.
+  - excerpt: Skrillex, Grimes, Diplo, Pretty lights with Electric Sheep, summer tour 2012
     image_path: /assets/img/skrillex-electric-sheep-train-grimes.png
 gallery4:
-  - excerpt: Dreams in High Fidelity II at Lexus Hybrid Art – MOSCOW 2010
+  - excerpt: Lexus Hybrid Art, Moscow 2010
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
 ---
 

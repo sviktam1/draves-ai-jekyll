@@ -15,7 +15,8 @@ image_path: /assets/img/globe-solid.svg
 <p>
   He was then Director of Engineering at CTRL-labs developing <a
   href="https://www.threads.net/@sussillodavid/post/C36G413uPMB">the
-  worlds first neuromotor interface</a>.
+  worlds first neuromotor interface</a>, and continued to lead the
+  team through the acquisition by Meta Reality Labs.
 </p>
 <p>
   He then served as VP of Engineering at Stability.AI, creators of the

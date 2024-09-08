@@ -69,7 +69,7 @@ gallery4:
 
 
 <div class="feature__wrapper custom-features" data-aos="fade-up" data-aos-delay="200">
-   {% for feature in site.features offset:2 limit:3 %}
+   {% for feature in site.features offset:2 limit:4 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">
@@ -102,9 +102,6 @@ gallery4:
     {% endfor %}
   </div>
 </div>
-
-
-
 
 <div class="figure-row d-flex" data-aos="fade-up" data-aos-delay="400">
   {% for item in page.gallery3 %}

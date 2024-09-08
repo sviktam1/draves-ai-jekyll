@@ -2,15 +2,7 @@
 title: Pioneering Generative Artist
 image_path: /assets/img/lightbulb-solid.svg
 ---
-Draves is celebrated for [Electric Sheep](https://electricsheep.org/),
-a collective intelligence comprised of 450,000 computers and audience,
-AI, and human artists to generate infinite abstract animations. Draves
-was an early enthusiast and contributor to [Open
-Source](https://opensource.org/) and the first to make Open Source
-art. Because his algorithms were freely useable and improvable, they
-became a genre and were widely used commercially, artistically, and by
-personal enthusiasts of all stripes. the Super Bowl commercial, movie
-Annihilation, Paul Simon Album cover, Stephen Hawking "The Grand
-Design" Book cover. The captivating visuals integrate today’s
-immersive art experience, notably showcased at Burning Man and at [21C
-Hotel](https://www.21cmuseumhotels.com/).
+Draves is best known for creating the [Electric
+Sheep](https://electricsheep.org/), a collective intelligence
+comprised of 450,000 computers and audience, human artists, and AI to
+generate infinite abstract animations.

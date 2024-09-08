@@ -1,5 +1,26 @@
 ---
-title: AI and Research Engineering Interfaces
+title: AI and Research Engineering
 image_path: /assets/img/globe-solid.svg
 ---
-Beyond artistic endeavors, Draves has played pivotal roles in start-ups and hedge funds, focusing on research engineering and open-source initiatives, such as during his tenure at Two Sigma. He then applied perceptual Artificial Intelligence to develop a neuromotor interface for augmented reality as Vice President of Engineering at [Stability.AI](http://stability.ai/) and later at [Meta Reality Labs](https://about.meta.com/realitylabs/) after the acquisition of [CTRL-labs](https://web.archive.org/web/20210227202724/https://www.ctrl-labs.com/).
+
+<p>
+  Simultaneous with his artistic endeavors, Draves has a successful
+  career in tech startups as an engineer and leader.
+</p>
+<p>
+  He had two succesful exits in SF during the dot-com boom. And at Two
+  Sigma in NYC he lead the <a href="http://beakerx.com/">BeakerX</a>
+  project, an extension to the open source Jupyter Notebook.
+</p>
+<p>
+  He was then Director of Engineering at CTRL-labs developing <a
+  href="https://www.threads.net/@sussillodavid/post/C36G413uPMB">the
+  worlds first neuromotor interface</a>.
+</p>
+<p>
+  He then served as VP of Engineering at Stability.AI, creators of the
+  Stable Diffusion image generating AI.
+</p>
+<p>
+  His most recently founded company is still in stealth mode...
+</p>

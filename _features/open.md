@@ -2,13 +2,19 @@
 title: Open Source and Popular Adoption
 image_path: /assets/img/lightbulb-solid.svg
 ---
-Draves was an early enthusiast
-and contributor to [Open Source](https://opensource.org/) and the
-first to make Open Source art. Because his algorithms were freely
-useable and improvable, they became a genre and were widely used
-commercially, artistically, and by personal enthusiasts of all
-stripes. the Super Bowl commercial, movie Annihilation, Paul Simon
-Album cover, Stephen Hawking "The Grand Design" Book cover. The
-captivating visuals integrate today’s immersive art experience,
-notably showcased at Burning Man and at [21C
-Hotel](https://www.21cmuseumhotels.com/).
+<p>
+  Draves was an early enthusiast and contributor to <a
+  href="https://opensource.org/">Open Source</a> and the first to make
+  Open Source art. Because his code was freely useable and improvable,
+  his algorithms were widely adopted and became a recognizable style
+  of their own.
+</p>
+<p>
+  His generative algorithms are widely used commercially,
+  artistically, and by personal enthusiasts of all stripes. In
+  addition to the Paul Simon album cover and Stephen Hawking book
+  cover depicted on this page, other prominent examples include a
+  Super Bowl commerical by IBM, the Natalie Portman movie Annihilation, and Peter
+  Chung's short in "The Animatrix". <a
+  href="https://scottdraves.com/opensource">Learn more</a>.
+</p>

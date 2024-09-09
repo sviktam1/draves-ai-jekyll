@@ -16,3 +16,7 @@ image_path: /assets/img/bullhorn-solid.svg
   are in collections including the 21c Museum Hotel and the Simons
   Center for Geometry and Physics.
 </p>
+<p>
+  See the complete list in his <a
+  href="https://scottdraves.com/draves-cv.pdf">Curriculum Vitae</a>.
+</p>

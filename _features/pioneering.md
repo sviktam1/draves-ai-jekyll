@@ -10,6 +10,6 @@ image_path: /assets/img/lightbulb-solid.svg
 </p>
 <p>
   He performed live as a VJ at numerous underground dance parites in
-  SF with his own custom audio-reactive software, and was the first VJ
+  SF with his own audio-reactive software, and was the first VJ
   to project at the Burning Man festival in 1999.
 </p>

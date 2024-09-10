@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: splash
 author_profile: true
 author: Scott Draves
 subtitle: Pioneering AI Artist & Engineering Leader
+classes: wide
 header:
   image: /assets/img/IMG_8396.jpg
 gallery1:
@@ -25,6 +26,28 @@ gallery3:
 gallery4:
   - excerpt: Opening night of Lexus Hybrid Art, Moscow 2010
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
+links:
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/scottdraves"
+  - label: "Threads"
+    icon: "fab fa-fw fa-threads"
+    url: "https://www.threads.net/@scott__draves"
+  - label: "Facebook"
+    icon: "fab fa-fw fa-facebook"
+    url: "https://www.facebook.com/scott.draves"
+  - label: "Twitter"
+    icon: "fab fa-fw fa-twitter-square"
+    url: "https://twitter.com/scott_draves?lang=en"
+  - label: "Instagram"
+    icon: "fab fa-fw fa-instagram"
+    url: "https://www.instagram.com/scott.draves/"
+  - label: "YouTube"
+    icon: "fab fa-fw fa-youtube"
+    url: "https://www.youtube.com/@ScottDraves"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/scottdraves"
 ---
 
 <div> 
@@ -129,4 +152,14 @@ gallery4:
       <figcaption>{{ item.excerpt }}</figcaption>
     </figure>
   {% endfor %}
+</div>
+
+<div class="figure-row-horizontal" data-aos="fade-up" data-aos-delay="500">
+  <div class="author__urls social-icons">
+  {% for link in page.links %}
+    {% if link.label and link.url %}
+       <a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+    {% endif %}
+  {% endfor %}
+  </div>
 </div>

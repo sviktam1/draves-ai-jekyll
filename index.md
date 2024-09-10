@@ -32,7 +32,7 @@ gallery4:
 </div>
 
 <div class="feature__wrapper custom-features custom-features-first" data-aos="fade-up">
-  {% for feature in site.features limit:2 %}
+  {% for feature in site.features limit:3 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">
@@ -69,7 +69,7 @@ gallery4:
 
 
 <div class="feature__wrapper custom-features" data-aos="fade-up" data-aos-delay="200">
-   {% for feature in site.features offset:2 limit:4 %}
+   {% for feature in site.features offset:3 limit:5 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">

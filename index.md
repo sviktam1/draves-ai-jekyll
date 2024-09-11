@@ -41,7 +41,7 @@ links:
     url: "https://twitter.com/scott_draves?lang=en"
   - label: "Instagram"
     icon: "fab fa-fw fa-instagram"
-    url: "https://www.instagram.com/scott.draves/"
+    url: "https://www.instagram.com/scott__draves/"
   - label: "YouTube"
     icon: "fab fa-fw fa-youtube"
     url: "https://www.youtube.com/@ScottDraves"

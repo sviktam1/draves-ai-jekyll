@@ -1,6 +1,6 @@
 <div class="testimonials-wrapper" data-aos="fade-up">
     {% for testimonial in site.data.testimonials limit:2 %}
-        <blockquote class="testimonial" data-aos="fade-right" data-aos-delay="{{ forloop.index | times: 100 }}">
+        <blockquote class="testimonial">
             <p>{{ testimonial.quote }}</p>
             <cite>{{ testimonial.author }}</cite>
         </blockquote>

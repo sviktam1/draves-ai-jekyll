@@ -72,10 +72,10 @@ links:
   {% endfor %}
 </div>
 
-<div class="figure-row figure-row-two d-flex" data-aos="fade-up" data-aos-delay="100">
+<div class="figure-row figure-row-two d-flex" data-aos="fade-up">
   {% for item in page.gallery1 %}
     <div style="max-width: 450px">
-      <figure class="" style="max-width: 100%; height: 320px" data-aos="zoom-in" data-aos-delay="{{ forloop.index | times: 100 }}">
+      <figure class="" style="max-width: 100%; height: 320px">
         <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
           <img style="width: 100%; height: 350px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         </a>
@@ -91,7 +91,7 @@ links:
 {% include testimonials.html %}
 
 
-<div class="feature__wrapper custom-features" data-aos="fade-up" data-aos-delay="200">
+<div class="feature__wrapper custom-features" data-aos="fade-up">
    {% for feature in site.features offset:3 limit:5 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
@@ -110,7 +110,7 @@ links:
 </div>
 
 
-<div class="testimonials-gallery-row" data-aos="fade-up" data-aos-delay="300">
+<div class="testimonials-gallery-row" data-aos="fade-up">
   {% for item in page.gallery2 limit:1 %}
       <div class="gallery-column">
       {% include figure popup=true image_path=item.image_path alt=item.excerpt caption=item.excerpt %}
@@ -126,10 +126,10 @@ links:
   </div>
 </div>
 
-<div class="figure-row d-flex" data-aos="fade-up" data-aos-delay="400">
+<div class="figure-row d-flex" data-aos="fade-up">
   {% for item in page.gallery3 %}
     <div style="max-width: 215px">
-      <figure class="" style="max-width: 100%; height: 170px" data-aos="flip-left" data-aos-delay="{{ forloop.index | times: 100 }}">
+      <figure class="" style="max-width: 100%; height: 170px">
         <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
           <img style="height: 200px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         </a>
@@ -141,7 +141,7 @@ links:
   {% endfor %}
 </div>
 
-<div class="figure-row-horizontal" data-aos="fade-up" data-aos-delay="500">
+<div class="figure-row-horizontal" data-aos="fade-up">
   {% for item in page.gallery4 limit:1 %}
     <figure>
       <div class="horizontal-image-container">

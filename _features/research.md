@@ -22,6 +22,3 @@ image_path: /assets/img/globe-solid.svg
   He then served as VP of Engineering at Stability.AI, creators of the
   Stable Diffusion image generating AI.
 </p>
-<p>
-  His most recently founded company is still in stealth mode...
-</p>

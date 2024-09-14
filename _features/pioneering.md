@@ -9,7 +9,8 @@ image_path: /assets/img/lightbulb-solid.svg
   human artists, and AI to generate infinite abstract animations.
 </p>
 <p>
-  He performed live as a VJ at numerous underground dance parites in
-  SF with his own audio-reactive software, and was the first VJ
-  to project at the Burning Man festival in 1999.
+  He performed live as a VJ at underground dance parties in
+  SF with his own audio-reactive synthesizer, and was the first VJ
+  to project at the Burning Man festival in 1999. His clients ranged from
+  Skrillex to the Adler Planetarium.
 </p>

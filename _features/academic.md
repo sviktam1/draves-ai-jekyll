@@ -4,7 +4,7 @@ image_path: /assets/img/bullhorn-solid.svg
 ---
 
 <p>
-  Starting in the 80s as a Brown University and Carnegie Mellon
+  Starting in the 80s as a Brown University and later Carnegie Mellon
   Computer Science PhD researcher, Draves invented techniques for
   metaprogramming and interactive media that now power GPU and AI
   programming.

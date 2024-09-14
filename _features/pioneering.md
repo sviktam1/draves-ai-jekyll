@@ -9,9 +9,9 @@ image_path: /assets/img/lightbulb-solid.svg
   human artists, and AI to generate infinite abstract animations.
 </p>
 <p>
-  He performed live as a VJ at underground dance parties in SF with his
-  own audio-reactive synthesizer, and was the first VJ to project at
-  the Burning Man festival in 1999.  Later, his clients and shows
-  ranged from Skrillex to Sonar in Barcelona 2002 and Tokyo's
-  legendary Ageha in 2005.
+  He performed live as a VJ at underground dance parties in SF with
+  his own audio-reactive synthesizer, and was the first VJ to project
+  at the Burning Man festival in 1999.  Later, his clients and shows
+  ranged from Sonar in Barcelona 2002, Tokyo's legendary Ageha in
+  2005, and Skrillex in 2012.
 </p>

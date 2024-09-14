@@ -12,5 +12,5 @@ humans, computers, and AI-enabled creativity:
   See his <a href="https://scottdraves.com/press">press page</a> with
   more complete coverage, or his <a
   href="https://en.wikipedia.org/wiki/Scott_Draves">Wikipedia</a> page
-  for explanation of his notable contributions.
+  for his notable contributions.
 </p>

@@ -54,7 +54,7 @@ links:
   <img class="author__avatar-img" src="/assets/img/face.jpg" alt="Author">
 </div>
 
-<div class="feature__wrapper custom-features custom-features-first" data-aos="fade-up">
+<div class="feature__wrapper custom-features" data-aos="fade-up">
   {% for feature in site.features limit:3 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
@@ -154,7 +154,7 @@ links:
   {% endfor %}
 </div>
 
-<div class="figure-row-horizontal" data-aos="fade-up" data-aos-delay="500">
+<div class="author__urls-wrapper" data-aos="fade-up" data-aos-delay="500">
   <div class="author__urls social-icons">
   {% for link in page.links %}
     {% if link.label and link.url %}

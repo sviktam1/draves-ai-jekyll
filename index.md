@@ -51,7 +51,7 @@ links:
 ---
 
 <div> 
-  <img class="author__avatar-img" src="/assets/img/face.jpg" alt="Author">
+  <img class="author__avatar-img" src="/assets/img/headshot.jpg" alt="Author">
 </div>
 
 <div class="feature__wrapper custom-features" data-aos="fade-up">

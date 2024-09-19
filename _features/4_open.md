@@ -15,6 +15,8 @@ image_path: /assets/img/lightbulb-solid.svg
   addition to the Paul Simon album cover and Stephen Hawking book
   cover depicted on this page, other prominent examples include a
   Super Bowl commerical by IBM, the Natalie Portman movie Annihilation, and Peter
-  Chung's short in "The Animatrix". <a
-  href="https://scottdraves.com/opensource">Learn more</a>.
+  Chung's short in "The Animatrix". 
+</p>
+<p>
+  <a href="https://scottdraves.com/opensource">Learn more</a>.
 </p>

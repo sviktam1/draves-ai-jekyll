@@ -19,6 +19,6 @@ image_path: /assets/img/globe-solid.svg
   team through the acquisition by Meta Reality Labs.
 </p>
 <p>
-  He then served as VP of Engineering at Stability.AI, creators of the
-  Stable Diffusion image generating AI.
+  His last regular job was as VP of Engineering at Stability.AI,
+  creators of the Stable Diffusion image generating AI.
 </p>

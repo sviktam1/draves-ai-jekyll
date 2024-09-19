@@ -9,7 +9,7 @@ header:
 gallery1:
   - excerpt: Immersive grand opening at 21c Museum Hotel, Bentonville 2013
     image_path: /assets/img/IMG_4507-1024x543.jpg
-  - excerpt: Vida retrospective at Espacio Fundación Telefónica, Madrid 2012
+  - excerpt: Art and Artificial Life VIDA Retrospective at Espacio Fundación Telefónica, Madrid 2012
     image_path: /assets/img/madrid-vida-retrospective.JPG
 gallery2:
   - excerpt: Electric Sheep designed by collective intelligence of AI and human artists

@@ -13,9 +13,9 @@ image_path: /assets/img/lightbulb-solid.svg
   His generative algorithms are widely used commercially,
   artistically, and by personal enthusiasts of all stripes. In
   addition to the Paul Simon album cover and Stephen Hawking book
-  cover depicted below, other prominent examples include a
-  Super Bowl commerical by IBM, the Natalie Portman movie Annihilation, and Peter
-  Chung's short in "The Animatrix". 
+  cover depicted below, other examples include a Super Bowl commerical
+  by IBM, the Natalie Portman film "Annihilation," and Peter Chung's
+  short in "The Animatrix."
 </p>
 <p>
   <a href="https://scottdraves.com/opensource">Learn more</a>.

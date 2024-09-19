@@ -23,20 +23,18 @@ subtitle: Pioneering AI Artist & Engineering Leader
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Scott Draves: Pioneering AI Artist & Engineering Leader
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: scott_draves
-github_username:  scottdraves
+baseurl: ""
+url: "https://draves.ai"
 
 collections:
   features:
     order:
-      pioneering.md
-      research.md
-      academic.md
-      innovative.md
-      interview.md
-      open.md
+      0_pioneering.md
+      1_research.md
+      2_academic.md
+      3_interview.md
+      4_open.md
+      5_innovative.md
 
 # Build settings
 theme: minimal-mistakes-jekyll

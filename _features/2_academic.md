@@ -5,7 +5,7 @@ image_path: /assets/img/bullhorn-solid.svg
 
 <p>
   Starting in the 80s as a Brown University and later Carnegie Mellon
-  Computer Science PhD researcher, Draves invented techniques for
+  Computer Science PhD researcher, Draves advanced techniques for
   metaprogramming and interactive media that now power GPU and AI
   programming.
 </p>
@@ -18,5 +18,5 @@ image_path: /assets/img/bullhorn-solid.svg
 </p>
 <p>
   See the complete list in his <a
-  href="https://scottdraves.com/draves-cv.pdf">Curriculum Vitae</a>.
+  href="https://scottdraves.com/draves-cv.pdf">curriculum vitae</a>.
 </p>

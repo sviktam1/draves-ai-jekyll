@@ -13,5 +13,5 @@ image_path: /assets/img/lightbulb-solid.svg
   his own audio-reactive synthesizer, and was the first VJ to project
   at the Burning Man festival in 1999.  Later, his clients and shows
   ranged from the main dancefloor of Sonar in Barcelona in 2002, to Tokyo's
-  legendary AgeHa in Tokyo in 2005, and Skrillex on tour in 2012.
+  legendary AgeHa in 2005, and Skrillex on tour in 2012.
 </p>

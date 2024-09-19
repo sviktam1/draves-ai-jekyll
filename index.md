@@ -21,7 +21,7 @@ gallery3:
     image_path: /assets/img/hawking flame.jpg
   - excerpt: At Webster Hall on 50 flat screens, New York 2009
     image_path: /assets/img/IMG_8308.jpeg
-  - excerpt: Skrillex, Grimes, Diplo, Pretty lights with Electric Sheep, summer tour 2012
+  - excerpt: Skrillex, Grimes, Diplo, Pretty Lights with Electric Sheep, summer tour 2012
     image_path: /assets/img/skrillex-electric-sheep-train-grimes.png
 gallery4:
   - excerpt: Opening night of Lexus Hybrid Art, Moscow 2010

@@ -59,7 +59,8 @@ links:
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">
-          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
+           {% capture svg_content %}{% include_relative {{ feature.image_path }} %}{% endcapture %}
+          {{ svg_content | replace: '#69bbff', site.feature_icon_colour | replace: '<svg', '<svg width="40" height="40"' }}
         </div>
         <div class="archive__item-body">
           <h2 class="archive__item-title">{{ feature.title }}</h2>
@@ -96,7 +97,8 @@ links:
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-icon">
-          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
+         {% capture svg_content %}{% include_relative {{ feature.image_path }} %}{% endcapture %}
+          {{ svg_content | replace: '#69bbff', site.feature_icon_colour | replace: '<svg', '<svg width="40" height="40"' }}
         </div>
         <div class="archive__item-body">
           <h2 class="archive__item-title">{{ feature.title }}</h2>

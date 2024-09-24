@@ -58,14 +58,14 @@ links:
   {% for feature in site.features limit:3 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
-        <div class="archive__item-icon">
-          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
-        </div>
-        <div class="archive__item-body">
-          <h2 class="archive__item-title">{{ feature.title }}</h2>
-          <div class="archive__item-excerpt">
-            {{ feature.excerpt | markdownify }}
+        <div class="archive__item-header">
+          <div class="archive__item-icon">
+            <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
           </div>
+          <h2 class="archive__item-title">{{ feature.title }}</h2>
+        </div>
+        <div class="archive__item-excerpt">
+          {{ feature.excerpt | markdownify }}
         </div>
       </div>
     </div>
@@ -95,14 +95,14 @@ links:
    {% for feature in site.features offset:3 limit:5 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
-        <div class="archive__item-icon">
-          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
-        </div>
-        <div class="archive__item-body">
-          <h2 class="archive__item-title">{{ feature.title }}</h2>
-          <div class="archive__item-excerpt">
-            {{ feature.excerpt | markdownify }}
+        <div class="archive__item-header">
+          <div class="archive__item-icon">
+            <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
           </div>
+          <h2 class="archive__item-title">{{ feature.title }}</h2>
+        </div>
+        <div class="archive__item-excerpt">
+          {{ feature.excerpt | markdownify }}
         </div>
       </div>
     </div>

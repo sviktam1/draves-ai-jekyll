@@ -435,3 +435,28 @@ h1, h2, h3, h4, h5, h6, .site-title {
   }
 }
 
+.archive__item-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.archive__item-icon {
+  flex: 0 0 auto;
+  margin-right: 20px; // Increased space between icon and title
+  img {
+    width: auto;
+    height: 1.2em; // Match the font size of the title
+  }
+}
+
+.archive__item-title {
+  flex: 1;
+  font-size: 1.2em; // Set the font size
+  line-height: 1.2; // Ensure proper vertical alignment
+  margin: 0;
+}
+
+.archive__item-excerpt {
+  margin-top: 10px;
+}

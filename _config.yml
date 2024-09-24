@@ -6,6 +6,9 @@ description: >-
 baseurl: ""
 url: "https://draves.ai"
 
+
+feature_icon_colour: "#69bbff"
+
 collections:
   features:
     order:

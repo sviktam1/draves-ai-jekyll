@@ -233,9 +233,11 @@ h1, h2, h3, h4, h5, h6, .site-title {
   align-items: center;
   text-align: center;
   min-height: 200px;
+  transition: border-left-width 0.3s ease;
   
   // Adjust this value as needed
   &:hover {
+    border-left-width: 10px;
     // border-color: #59d4cc;
     cursor: pointer;
   }

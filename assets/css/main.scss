@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 15px;
-  margin: 0 auto; // Center the feature within its grid cell
+  margin: 0 !important; // Center the feature within its grid cell
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 
@@ -303,17 +303,14 @@ h1, h2, h3, h4, h5, h6, .site-title {
 
 @media screen and (min-width: 48em) {
   .custom-features {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-
-  .custom-features-first {
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 !important;
   }
 
   .custom-feature {
-    width: calc(50% - 20px); // Adjust for the gap
+    width: 100%;
+    max-width: 300px;
   }
 
   .image-hover-effect {
@@ -351,7 +348,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
   .custom-features {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 !important;
   }
 
   .custom-features-first {

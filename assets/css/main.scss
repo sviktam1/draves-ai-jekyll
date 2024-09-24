@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5, h6, .site-title {
 
 .custom-features-first {
   justify-content: center;
-  color: #ff0000;
 }
 
 .custom-feature {
@@ -455,10 +454,14 @@ h1, h2, h3, h4, h5, h6, .site-title {
   margin-top: 10px;
 }
 
-img {
-  transition: outline 0.3s ease !important;
-}
-
-img:hover {
-  outline: 2px solid rgb(105, 187, 255) !important; // Blue outline
+.image-popup:hover {
+  img {
+    transition: outline 0.3s ease !important;
+  }
+  
+  img { 
+    &:hover {
+      outline: 2px solid rgb(105, 187, 255) !important; // Blue outline
+    }
+  }
 }

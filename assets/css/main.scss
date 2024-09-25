@@ -87,12 +87,12 @@ h1, h2, h3, h4, h5, h6, .site-title {
   cursor: pointer;
 
   a {
-    color: rgb(51, 79, 102);
+    color: rgb(105, 187, 255);
   }
 
   a:hover {
     // color: #59d4cc;
-    color: rgb(105, 187, 255);
+    color: rgb(155, 207, 255);
   }
 
   &:hover {
@@ -461,7 +461,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
   
   img { 
     &:hover {
-      outline: 2px solid rgb(105, 187, 255) !important; // Blue outline
+      outline: 1px solid rgb(105, 187, 255) !important; // Blue outline
     }
   }
 }

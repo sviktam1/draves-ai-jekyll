@@ -58,14 +58,15 @@ links:
   {% for feature in site.features limit:3 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
-        <div class="archive__item-icon">
-          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
-        </div>
-        <div class="archive__item-body">
-          <h2 class="archive__item-title">{{ feature.title }}</h2>
-          <div class="archive__item-excerpt">
-            {{ feature.excerpt | markdownify }}
+        <div class="archive__item-header">
+          <div class="archive__item-icon">
+            {% capture svg_content %}{% include_relative {{ feature.image_path }} %}{% endcapture %}
+          {{ svg_content | replace: '#69bbff', site.feature_icon_colour | replace: '<svg', '<svg width="40" height="40"' }}
           </div>
+          <h2 class="archive__item-title">{{ feature.title }}</h2>
+        </div>
+        <div class="archive__item-excerpt">
+          {{ feature.excerpt | markdownify }}
         </div>
       </div>
     </div>
@@ -76,7 +77,7 @@ links:
   {% for item in page.gallery1 %}
     <div style="max-width: 450px">
       <figure class="" style="max-width: 100%; height: 320px">
-        <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
+        <a href="{{ item.image_path }}" class="image-popup">
           <img style="width: 100%; height: 350px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         </a>
       </figure>
@@ -95,14 +96,15 @@ links:
    {% for feature in site.features offset:3 limit:5 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
-        <div class="archive__item-icon">
-          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
-        </div>
-        <div class="archive__item-body">
-          <h2 class="archive__item-title">{{ feature.title }}</h2>
-          <div class="archive__item-excerpt">
-            {{ feature.excerpt | markdownify }}
+        <div class="archive__item-header">
+          <div class="archive__item-icon">
+           {% capture svg_content %}{% include_relative {{ feature.image_path }} %}{% endcapture %}
+          {{ svg_content | replace: '#69bbff', site.feature_icon_colour | replace: '<svg', '<svg width="40" height="40"' }}
           </div>
+          <h2 class="archive__item-title">{{ feature.title }}</h2>
+        </div>
+        <div class="archive__item-excerpt">
+          {{ feature.excerpt | markdownify }}
         </div>
       </div>
     </div>
@@ -113,8 +115,15 @@ links:
 <div class="testimonials-gallery-row" data-aos="fade-up">
   {% for item in page.gallery2 limit:1 %}
       <div class="gallery-column">
-      {% include figure popup=true image_path=item.image_path alt=item.excerpt caption=item.excerpt %}
-  </div>
+      <figure>
+        <a href="{{ item.image_path }}" class="image-popup">
+          <img src="{{ item.image_path }}" alt="{{ item.excerpt }}">
+        </a>
+        {% if item.excerpt %}
+          <figcaption>{{ item.excerpt }}</figcaption>
+        {% endif %}
+      </figure>
+      </div>
   {% endfor %}
   <div class="testimonials-column">
     {% for testimonial in site.data.testimonials offset:2 limit:2 %}
@@ -130,7 +139,7 @@ links:
   {% for item in page.gallery3 %}
     <div style="max-width: 215px">
       <figure class="" style="max-width: 100%; height: 170px">
-        <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
+        <a href="{{ item.image_path }}" class="image-popup">
           <img style="height: 200px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         </a>
       </figure>
@@ -145,7 +154,7 @@ links:
   {% for item in page.gallery4 limit:1 %}
     <figure>
       <div class="horizontal-image-container">
-        <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
+        <a href="{{ item.image_path }}" class="image-popup">
           <img src="{{ item.image_path }}" alt="{{ item.excerpt }}" class="horizontal-image">
         </a>
       </div>

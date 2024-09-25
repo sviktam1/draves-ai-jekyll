@@ -437,6 +437,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
 .archive__item-icon {
   flex: 0 0 auto;
   margin-right: 20px; // Increased space between icon and title
+  margin-top: 30px;
   img {
     width: auto;
     height: 1.2em; // Match the font size of the title

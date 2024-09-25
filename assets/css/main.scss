@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
   border-radius: 4px;
   padding: 15px;
   margin: 0 !important; // Center the feature within its grid cell
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: border-color 0.3s ease;
   cursor: pointer;
 
   a {
@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5, h6, .site-title {
   &:hover {
     // border-color: #59d4cc; // Light salad green
     border-color: rgb(105, 187, 255);
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 }
 .archive {
@@ -467,14 +466,13 @@ blockquote {
   margin-top: 10px;
 }
 
-.image-popup:hover {
-  img {
-    transition: outline 0.3s ease !important;
-  }
-  
+.image-popup {
   img { 
+    transition: border-color 0.3s ease;
+    border: 1px solid rgb(0.4, 0.4, 0.4);
+    box-shadow: none !important;
     &:hover {
-      outline: 1px solid rgb(105, 187, 255) !important; // Blue outline
+      border-color: rgb(105, 187, 255);
     }
   }
 }

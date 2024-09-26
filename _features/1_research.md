@@ -1,5 +1,5 @@
 ---
-title: AI and Research Engineering
+title: AI Research Engineering
 image_path: /assets/img/globe-solid.svg
 ---
 

@@ -24,11 +24,18 @@ h1, h2, h3, h4, h5, h6, .site-title {
 
 .author__avatar-img {
   position: absolute;
-  top: 5rem;
+  top: 8rem;
   right: 1rem;
   width: 100%;
   max-width: 6rem;
   border: 1px solid gray;
+}
+
+.site-title {
+  font-size: 30px;
+}
+.site-subtitle {
+  font-size: 14px;
 }
 
 @media (min-width: 576px) { 
@@ -59,6 +66,7 @@ h1, h2, h3, h4, h5, h6, .site-title {
     }
   }
 }
+
 
 @media (min-width: 1200px) { 
   .author__avatar-img {

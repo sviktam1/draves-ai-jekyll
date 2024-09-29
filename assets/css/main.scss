@@ -406,11 +406,8 @@ blockquote {
 .author__urls-wrapper {
   .author__urls.social-icons {
     display: flex !important;
-    flex-direction: row;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
+    align-items: flex-start;
     position: relative !important;
     top: auto !important;
     right: auto !important;
@@ -421,12 +418,21 @@ blockquote {
     box-shadow: none !important;
     
     li {
-      padding: 5px 10px;
+      padding: 5px 0;
       font-size: 0.9em;
     }
+     // Remove the arrow
+      &:before, &:after {
+        display: none !important;
+      }
   }
 
   button {
+    display: none !important;
+  }
+
+  // Remove the arrow
+  &:before, &:after {
     display: none !important;
   }
 }
@@ -434,8 +440,12 @@ blockquote {
 @media (min-width: 64em) {
   .author__urls-wrapper {
     .author__urls.social-icons {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+
       li {
-        padding: 5px 0;
+        padding: 5px 10px;
       }
     }
   }
